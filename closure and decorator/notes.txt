@@ -1,0 +1,20 @@
+Closure:
+
+Closure is a special function
+Closures are developed using nested function
+closure is inner fucntion, which performs operation using the data of outer function even after the execution of the outer function is completed
+
+
+
+Decorators:
+Decorator is a special function
+Decorator fucntion receives input as one function and returns another function as output
+A function returning another function, usually applied as a function transformation using the @wrapper syntax
+Common examples for decorators are classmethod() and staticmethod()
+Decorator are used to add new features to existing function or extending functionality of existing function without modifying it.
+
+Decorators can be developed irrespective of functionality.
+
+
+Generators:
+A function which returns a generator iterator. It looks like a normal function except it contains yield expressions for production of a series of values usable in a for-loop or that can be received one at a time with the next() function. 

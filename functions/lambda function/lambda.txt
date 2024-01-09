@@ -1,0 +1,6 @@
+If the fucntion doesn't have any name, is called as Lmabda or anonymous function.
+Uses of lambda function:
+    we can reduce number of lined in our code.
+    It is called as Higher Order function
+
+MAP AND FILTER function

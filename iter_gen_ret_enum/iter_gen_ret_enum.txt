@@ -1,0 +1,16 @@
+Iterator
+using iterator we can return only one value
+
+enumerator
+It will return the value along with the count
+The default count starts from 0
+
+Return:
+The return statement will return only one value at a time
+
+Generator:
+It can return multiple values
+It internally uses yield and next method for returning multiple values
+
+
+In python programming we can generate random numbers using random function

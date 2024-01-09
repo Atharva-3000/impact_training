@@ -1,0 +1,2 @@
+Function calling itself is called as recursion, we can reduce number of lines in our code
+Recursion will take more stack memories

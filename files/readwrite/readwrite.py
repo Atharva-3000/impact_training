@@ -1,0 +1,5 @@
+x=open("writing\writing.txt",'r+')
+print(x.read())
+x.write("\nNani\nJr. NTR no1\nRam Charan")
+print("Data read and write successfully!")
+x.close()

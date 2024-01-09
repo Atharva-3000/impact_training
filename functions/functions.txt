@@ -1,0 +1,14 @@
+1. It is a subprogram and it performs a specific operation
+2. A self contained block of one or more statements is called as a function
+
+======>Advantages
+
+    a. Reusability: Writing the code only once, but we can use more than once
+    b. Understanding the logic becomes easy
+    c. In python programming we can define a function using the "def" keyword
+
+    d. Functions are divided into 4 types:
+        i.  Function without args and without return type
+        ii. Function with args and without return type
+        iii.Function with args and with return type: In this approach we will pass the args from main to subprogram and sub will return the value back to the main function
+        iv. Function without args and with return type (not used mostly)

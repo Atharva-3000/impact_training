@@ -1,0 +1,49 @@
+in python we have 2 types of errors:
+
+1. compiletime errors/ syntax errors: Should be handled by users
+
+2. runtime errors/exceptions: Happens during runtime or execution of program, because of runtime errors the program will be terminated abnormally
+
+we can handle the exceptions with the help of try and except block
+
+TRY BLOCK:
+the statements which produce the exceptions and the other statements which depends on the exception, we have to keep inside the try block
+
+EXCEPT BLOCK:
+we have to pass corresponding exception classname as an argument to except block
+
+generally user friendly error messages will be given in the except block.
+
+
+we can handle the exceptions with the help of try and except block
+
+
+DIFFERENT TYPES OF EXCEPTIONS IN PYTHON
+1.ZeroDivisionError
+2.ValueError
+3.TypeError
+4.IndexError
+5.AttributeError
+6:ArrayOutOfBounds
+7.RaiseError
+8.NameError
+9.KeyError
+10.Unbound Local Error
+
+One Try with multiple except block:
+If you want to handle multiple exceptions within a single program than we can use try with multiple except block
+
+finally:
+Whether exception is raised or not raised, if it is raised whether is is handled or not handled but statements in the finally block will always be executed by default.
+
+We have to write very important statements in the finally block, such as: File closing statements, db connection closing statements, etc...
+
+Writing finally block is always optional
+
+
+UserDefined exceptions:
+Pre-defined exceptions are not satisfying the user requirement, then we can raise our own errors using:
+1. Assert statements
+Throw user defined EXCEPTIONS
+2. Raise statements
+we can raise our own errors using the raise statement, if the given condition is not satisfied, than this error will be raised

@@ -1,0 +1,15 @@
+Python has 2 types of variables
+
+Global and Local
+
+
+Local variables:
+Local variables can be accessed within the function:
+Once the execution of the fucntion is completed it will be destroyed.
+
+Global variables:
+The variables which are declared at the top of the program are called as global variables.
+We can access global varriables anywhere within the program
+
+
+A function prioritizes the local variables in the function over the global variables

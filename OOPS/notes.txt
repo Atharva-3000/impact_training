@@ -1,0 +1,56 @@
+In Procedural Oriented Programming we declare data as global then related fn as well as unrelated function can also access the data, security is missing.
+
+We can achieve the security with the help of OOP.
+
+OOP principles are:-
+1. class
+2. objects
+3. encapsulation
+4. inheritance
+5. polymorphism
+6. abstract class and interfaces
+
+
+CLASS:
+1. Class is a container which contains data and related operations in a single entity.
+2. Class is a collection of data members and member functions.
+3. Class is a collection of variables and methods.
+4. Class is a collection of datta and related operations.
+5. Data can be represented by variables and operations can be represented by methods.
+6. Within a class, we can declare three types of variables:
+    a. Static variable
+    b. Non static variable
+    c. Local variable
+7. We can define three types of methods within a class:
+    a. Static method
+    b. Non static method
+    c. class method
+
+
+OBJECT:
+1. Object is an instance of class that is by creating an object, memory will be alloted for the data members of a class.
+2. When class is created, memory will be alloted for the static variables and static methods.
+3. When object is created, memory will be alloted for the non static variables and non static methods.
+
+
+STATIC VARIABLE:
+The variables which are declared within a class but outside of all methods, those variables are called as static variables.
+We can access the static variables within a class by using the class name and outside of a class by using the classname and object name.
+If the data is common to all objects, than we can declare those variables as static variables.
+For static variables, memory is alloted when the class is laoded.
+
+
+NON-STATIC VARIABLE:
+The variables which are declared within a class and within a method, those variables are called as non static variables.
+We can access the non static variables within a class by using self keyword, and outside of a class by using object name.
+If the data is changed from object to pbject, we can declare that variable as non static variable.
+
+
+NON STATIC METHOD:
+We can access the non static method by using the object name.
+For non static methods, memory is alloted when the object is created.
+If any method has a default args as "self", that corresponding method is called as non static method.
+
+
+STATIC METHOD:
+We can access the static method by using the classname and for accessing the static method, we dont need any object.

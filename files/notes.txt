@@ -1,0 +1,23 @@
+Files are used to store the data permanently.
+We can perform different operations on the file such as 
+
+open
+read
+write
+we can append the data into the file and 
+finally we can close the file.
+
+different modes available in the file are:
+r mode: indicates the read operation
+w mode: indicates the write operation
+a mode: indicates the append operation
+r+ mode: indicates read and write operations at a time
+w+ mode: indicates write and read operations at a time
+a+ mode: indicates append and read operations at a time
+
+Reading the data from the file:
+Append Mode: This mode will add the data to the existing file and it will not create any new file
+
+First read the data, then perform write operation on the file
+
+w+ operation: First we will perform write operation on a new file then, we will read the data

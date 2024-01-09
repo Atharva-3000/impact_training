@@ -1,0 +1,8 @@
+In python programming, we have 2 types of modules:
+1. normal import
+2. from import
+from filename import function or *
+
+Using the modules concept, we can access the properties of one python file inside another python file.
+
+In real time scenario, one application of programs, so 2 programs will communicate with each other using modules concept(sending and receiving the valuess)
