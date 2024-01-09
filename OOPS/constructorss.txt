@@ -1,0 +1,8 @@
+It is a special type of method.
+We can define a constructor in python programming by using __init__
+Constructor will be invoked automatically during the creation of the object, but methods should be called externally.
+
+
+We have two types of contructors;
+1. Default constructor
+2. Parameterised constructor
