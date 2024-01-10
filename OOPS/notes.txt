@@ -69,3 +69,26 @@ The concept of using the properties of one class into another class by directly 
 A class which is extended by another class is known as a super class or base class
 A class which is extending by another class is known as subclass or derived class
 We can use super class properties into sub class directly like same class members
+
+POLYMORPHISM:
+Defining one thing in number of forms is called as polymorphism.
+
+It is divided into two types:
+
+1. Method overloading
+The concept of defining multiple methods with same name, with same number or different number of parameters within a class is known as: method overloading
+It is partially supported by Python.
+
+
+2. Method overriding
+
+
+ARBITRARY PARAMETER:
+If any variable is preceeded by *, then the corresponding parameter is called as arbitrary parameter.
+
+Python supports 2 types of arbitrary parameters:
+1. single star arbitrary parameter:
+    It's type is considered as tuple.
+
+2. multi star arbitrary paramete:
+    It's type is considered as dictionary.

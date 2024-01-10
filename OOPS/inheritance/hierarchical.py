@@ -17,3 +17,7 @@ class ML(student):
     def display(self):
         self.insert()
         print(self.name,self.roll,self.add,self.s3,self.s4,self.s3)
+d1=DS()
+d1.display()
+m1=ML()
+m1.display()
