@@ -54,3 +54,18 @@ If any method has a default args as "self", that corresponding method is called 
 
 STATIC METHOD:
 We can access the static method by using the classname and for accessing the static method, we dont need any object.
+
+
+
+#we can use the properties of one class inside another class in two ways:
+
+1.has a relationship
+The concept of using the properties of one class into another class by using the class name or reference variable name is known as: has a relationship
+
+
+INHERITANCE:
+2. is a relationship (inheritance)
+The concept of using the properties of one class into another class by directly like as a same class members is known as: is a relationship/Inheritance
+A class which is extended by another class is known as a super class or base class
+A class which is extending by another class is known as subclass or derived class
+We can use super class properties into sub class directly like same class members

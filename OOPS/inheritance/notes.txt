@@ -1,0 +1,31 @@
+Inheritance is classified into six types:
+
+1. Single inheritance:
+The concept of inheriting properties from only one class into another class is known as "single inheritance.
+
+
+2. Multi-level inheritance
+The concept of inheriting properties from multiple classes into one class with the concept of "one after another" is known as "multi-level inheritance".
+
+
+3. Hierarchical inheritance
+The concept of inheriting properties from one class into multiple classes seperately is known as "hierarchical inheritance".
+
+
+4. Multiple inheritance
+The concept of inheriting properties from multiple classes into single class at a time is known as "multiple inheritance".
+
+
+5. Cyclic inheritance
+The concept of inheriting properties from subclass to superclass is known as "cyclic inheritance".
+Python doesnt support cyclic inheritance
+
+
+6. Hybrid inheritance
+The combination of all types of inheritance is known as "hybrid inheritance".
+
+
+OBJECT CLASS:
+Object class is a pre-defined class which is defined in built-in models.
+Object is a superclass for every class in Python.
+Object class properties can bea ccessed in every class directly and we can also access through every class reference variable
