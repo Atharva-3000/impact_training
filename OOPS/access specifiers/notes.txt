@@ -1,0 +1,16 @@
+In python,  we have three different access modifiers:
+1. Private
+2. Public
+3. Protected
+
+1. PUBLIC:
+If variable or method is public, we can access anywhere within the program.
+
+2. PROTECTED:
+If variable or method is protected, we can access within the next immediate class(Can't access in the main program).
+
+Protected variables can be declared using "_"
+
+3. PRIVATE:
+If a variable or method is private, we can access within the same class.
+in python programming, we can declare private variables and methods using '__'

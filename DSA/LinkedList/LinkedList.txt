@@ -1,0 +1,21 @@
+LINKED LIST:
+
+It is a collection of nodes and every node will be connected with the next node.
+It is classified into three types:
+a. Single Linked List
+b. Double Linked List
+c. Circular Linked List
+
+
+SINGLE LINKED LIST:
+It is a collection of nodes and every node contains two fields:
+1. Data
+2. Address
+
+The various operations we are going to perform such as:
+1. Creating a node
+2. Inserting the data into the node
+3. Displaying the data present in the nodes
+4. Adding the nodes
+5. Deleting the nodes
+6. Displaying the data in the reverse order.

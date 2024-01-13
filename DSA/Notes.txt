@@ -1,0 +1,15 @@
+Performing manipulations on the data is called as Data Structure.
+Different manipulationson the data are:
+a. Storing the data
+b. Updating the data
+c. Retrieving the data
+d. Deleting the data
+
+
+Different data structure concepts are:
+a. Stack
+b. Queue
+c. Searching and sorting techniques
+d. Linked List
+e. Trees
+f. Graphs

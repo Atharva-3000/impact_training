@@ -1,0 +1,14 @@
+ABSTRACT CLASS:
+It is a collection of abstract and non-abstract methods.
+
+Abstract Methods:
+The method which doesnt contain any implementation part is called as abstract method.
+
+Non Abstract Methods:
+The method which contains the implementation part is called as non-abstract method.
+
+INTERFACE:
+Interface is a collection of abstract methods.
+If there is no implementation part for method and constructor, we can replace with pass, empty method doesnt support constructor.
+
+Interface is implemented by inheriting the properties of abc module

@@ -81,6 +81,8 @@ It is partially supported by Python.
 
 
 2. Method overriding
+Concept of defining multiple methods with same name with same number of parameters, one in super class and another in subclass is known as method overriding.
+When we override super class methods within a subclass, by default subclass method is executed only if subclass method is created.
 
 
 ARBITRARY PARAMETER:
@@ -92,3 +94,10 @@ Python supports 2 types of arbitrary parameters:
 
 2. multi star arbitrary paramete:
     It's type is considered as dictionary.
+
+
+CONSTRUCTOR OVERRIDING:
+Defining multiple constructor with the same number of parameters and one constructor is defined in the super class and one in the sub-class is known as constructor overriding.
+
+Whenever we override super class constructor within a subclass, then by default subclass constructor will be executed, if subclass constructor is created.
+
