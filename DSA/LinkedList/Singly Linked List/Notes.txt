@@ -1,0 +1,23 @@
+class Node:
+    def __init__(self,data): #Defining structure
+        self.data=data
+        self.next=None
+class slist:                 #To initialize head
+    def __init__(self):
+        self.head=None
+def display(self):           #Print function
+    if(self.head is None):
+        print("List is empty")
+    else:
+        while(temp):
+            print("temp.data", end="--->")
+            temp=temp.next
+n1=Node(20)
+n2=Node(30)
+n1.next=n2
+n3=Node(40)
+n2.next=n3
+n4=Node(50)
+n3.next=n4
+s1=slist()
+s1.head=n1

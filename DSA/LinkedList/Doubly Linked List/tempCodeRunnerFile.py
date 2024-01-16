@@ -1,0 +1,8 @@
+dll.delete_front()
+# dll.display()
+# print()
+# dll.delete_end()
+# dll.display()
+# print()
+# dll.delete_at_pos(2)
+# dll.display()

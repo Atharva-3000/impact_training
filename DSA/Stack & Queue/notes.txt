@@ -1,0 +1,24 @@
+STACK:
+It follows LIFO
+Operations are:
+1.Push: Using this, we can insert the element into the stack.
+2.Pop:  Using the pop operation, we can delete the top most element of the stack.
+3.Display: Displays the data
+
+It can be implemented in three ways:
+1. Using List
+2. Using LinkedList
+3. Using Deque class
+
+
+
+QUEUE:
+It follows FIFO.
+Operations are:
+1. enqueue: insertion
+2. dequeue: deletes the element from the queue
+
+Queue can be implemented in three ways:
+1. Using List
+2. Using Dequeue class
+3. Using LinkedList

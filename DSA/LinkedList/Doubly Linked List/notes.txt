@@ -1,0 +1,21 @@
+DOUBLY LINKED LIST:
+
+It is a collection of nodes.
+
+Every node will be connected to the next node.
+
+In doubly linked list, every node will contain 3 fields:
+1. prev (previous node address)
+2. data
+3. next (next node address)
+
+For the first node, prev field address will be None.
+For the last node, next field address will be None.
+
+The basic operations we can perform on the double linked list are:
+1. Creating the nodes
+2. Inserting the data into the nodes
+3. Display the data present in the nodes
+4. Reversing the data present in the nodes through the tail.
+5. Adding the nodes
+6. Deleting the nodes
