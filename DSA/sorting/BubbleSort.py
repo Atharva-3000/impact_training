@@ -11,6 +11,8 @@ def bubbleSort(ls):
 # bubbleSort(ls)
 # print(*ls)
 
+
+# based on string length
 la=["abc","a","hello"]
 bubbleSort(la)
 print(*la)

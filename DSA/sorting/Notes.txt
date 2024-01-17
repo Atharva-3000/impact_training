@@ -14,3 +14,15 @@ BUBBLE SORT:
 2. In bubble sort, we have to compare the adjacent elements, if the elements are not sorted, then we have to sort.
 3. By default arranges in ascending or decending order
 4. For ascending order we use > symbol, for descending order we will use < for comparision
+
+
+SELCTION SORT:
+1. In the selection sort, the first element will be considered as minimum element in the list, than remaining all element will be compared with the first element, if element is less than the minimum element, first we are going to change the index position of minimum index element. If any element is less than the minimum value, than exchange the index position of minimum index.
+After all comparisions, the minimum value will be, moved to first location aka starting location.
+
+
+MERGE SORT:
+1.  Merge sort works on the principle of Divide And Conqueor
+2.  First we have to deivide the list into 2 equal parts, i.e. len(l/2), this division is possible until the   lenth=1
+3. We use recursion to divide the lists into equal parts.
+4.  During comparision, we are going to compare left side value with the right side value, if left < right value, then left side value will come first, if condition false, right side will come first.
