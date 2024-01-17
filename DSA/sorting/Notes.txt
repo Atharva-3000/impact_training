@@ -12,3 +12,5 @@ Python supports various different algos, 7 in particular
 BUBBLE SORT:
 1. It is worst compared to every other algo.
 2. In bubble sort, we have to compare the adjacent elements, if the elements are not sorted, then we have to sort.
+3. By default arranges in ascending or decending order
+4. For ascending order we use > symbol, for descending order we will use < for comparision
