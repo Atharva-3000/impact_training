@@ -22,3 +22,6 @@ Queue can be implemented in three ways:
 1. Using List
 2. Using Dequeue class
 3. Using LinkedList
+
+
+Implementation of Stack using List
