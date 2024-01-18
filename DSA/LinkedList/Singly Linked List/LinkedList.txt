@@ -19,4 +19,3 @@ The various operations we are going to perform such as:
 4. Adding the nodes
 5. Deleting the nodes
 6. Displaying the data in the reverse order.
-

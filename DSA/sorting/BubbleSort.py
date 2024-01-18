@@ -6,7 +6,6 @@ def bubbleSort(ls):
             if len(ls[j])>len(ls[j+1]):
                 ls[j],ls[j+1]=ls[j+1],ls[j]
     print(counter)
-
 # ls=list(map(int,input().split()))
 # bubbleSort(ls)
 # print(*ls)

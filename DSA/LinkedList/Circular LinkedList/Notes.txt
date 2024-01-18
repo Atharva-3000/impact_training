@@ -1,0 +1,7 @@
+CIRCULAR LINKEDLIST:
+
+It is similar to single linked list but Address of the last node will be connected to first node, that's why last node address is address of the first node.
+Contains only head, but circular LINKEDLIST contains head and tail
+
+Head always points to first node.
+Tail always pointing to last node.
