@@ -1,0 +1,8 @@
+Graph is a collection of Vertices and Edges
+Vertices will be represented by circle or nodes
+Edges will be represented by lines
+Vertices will be connected by lines/edges
+
+
+
+REST IN COPY
