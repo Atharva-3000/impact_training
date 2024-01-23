@@ -1,0 +1,1 @@
+A while loop inside another loop is called as nested while loop
