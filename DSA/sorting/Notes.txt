@@ -27,4 +27,11 @@ MERGE SORT:
 3. We use recursion to divide the lists into equal parts.
 4.  During comparision, we are going to compare left side value with the right side value, if left < right value, then left side value will come first, if condition false, right side will come first.
 
-INSERTION SORT:
+QUICK SORT:
+1->Consider the first element as pivot.
+2->Initialize i to low and j to high.
+3->Repeat the following steps, untill i<j
+    i->keep on incrementing a[i]<pivot
+    ii->Keep on decrementing a[j]>pivot
+4->If i<j, swap(a[i],a[j])
+5->If i>j, swap(a[j],pivot)
