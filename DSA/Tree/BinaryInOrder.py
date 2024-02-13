@@ -86,12 +86,18 @@ def depth(root):
     else:
         return rdepth+1
     
-def sumNode(root):
-    if(root is None):
-        return 0
-    left=sumNode(root.left)
-    right=sumNode(root.right)
-    return left+right+root.data
+def sumOfLeaf(root,isLeft,sum):
+    if root is None:
+        return 
+    if root.left is None and root.right is None and isLeft ==True:
+        sum[0]+=root.data
+    sumOfLeaf(root.left,1,sum)
+    sumOfLeaf(root.right,0,sum)
+    
+def sumOfLeafRec(root):
+    sum=[0]
+    sumOfLeaf(root,0,sum)
+    return sum[0]
 
 b = Node(27)
 b.insert(14)
@@ -115,4 +121,4 @@ print_tree(b)
 print()
 print(depth(b))
 print()
-print(sumNode(b))
+print(sumOfLeaf(b))
