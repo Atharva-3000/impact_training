@@ -1,0 +1,17 @@
+Most of the problems can be solved in multiple ways:
+
+1. Using iterative approach: using loops
+2. Using recursive method
+3. Using Tabular method and memoization: Comes under dynamic programming
+
+    1. The first 2 approaches will consume more time and memory, i.e. complexity will be more.
+    2. Optimization can be achieved through dynamic programming i.e. memory and time    optimization.
+    3. Dynamic programming will take more time as compared to greedy algorithm, but it  will take less time as compared to general approaches.(loops and recursion)
+
+#Using iterative method:
+1. Implementaion of fibonacci series using iterative method.
+
+#Finding the nth term using tabular method
+1. In this approach we are going to store the result in memory.
+2. We are going to calculate the value only once, if next time same value is required, then we are going to access from the memory.
+By this approach, we can consume less time, that is time complexity is less.

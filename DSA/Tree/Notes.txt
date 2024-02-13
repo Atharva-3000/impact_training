@@ -1,0 +1,4 @@
+Tree types:
+1. Node with 0 childrens
+2. Node with 1 childrens.
+3. Node with 2 childrens.
