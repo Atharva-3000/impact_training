@@ -2,6 +2,7 @@ class Node:
     def __init__(self,data):
         self.data=data
         self.next=None
+        
 class Stack:
     def __init__(self):
         self.head=None
@@ -10,6 +11,8 @@ class Stack:
             return True
         else: 
             return False
+        
+        
     def push(self,data):
         if(self.head==None):
             self.head=Node(data)
@@ -22,15 +25,18 @@ class Stack:
                 ne=Node(data)
                 self.head=ne
                 ne.next=temp
+                
+                
     def display(self):
         temp=self.head
         if(self.head is None):
             print("Stack is empty")
             return
-
         while(temp):
             print(temp.data,end=' ')
             temp=temp.next
+            
+            
     def pop(self):
         temp=self.head
         if(self.isempty()):

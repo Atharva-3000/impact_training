@@ -6,12 +6,11 @@ class Node:
 class Stack:
     def __init__(self):
         self.head=None
-        
         self.c=4
     def isempty(self):
         if(self.head==None):
             return True
-        else: 
+        else:
             return False
     def push(self,data):
         if(self.head==None):

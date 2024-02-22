@@ -23,5 +23,12 @@ Queue can be implemented in three ways:
 2. Using Dequeue class
 3. Using LinkedList
 
+PRIORITY QUEUE
+1. Priority queue is similar to queue, but has priority.
+2. In priority queue we can assign priority, then according to the priority, elements get deleted.
+3. The different ways of assigning priorities are:
+    a. Ascending order
+    b. Descending order
+
 
 Implementation of Stack using List

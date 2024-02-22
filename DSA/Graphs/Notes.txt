@@ -1,8 +1,13 @@
-Graph is a collection of Vertices and Edges
-Vertices will be represented by circle or nodes
-Edges will be represented by lines
-Vertices will be connected by lines/edges
-
-
-
-REST IN COPY
+#graph is a collection of vertices and edges. Vertices will be represented by cirles or nodes or poles. Edges represent lines. Edges will connect the vertices. 
+#Degree of node: the no of edges connected to each node.
+#size of graph - it will represent the total no of edges in a graph.
+#diff types of graphs - 
+#1. Directed and Undirected - If a direction is indicated b/w the edges then it is directed graph. Else Undirected graph.
+#2. weighted & unweighted - if a weight is specified b/w the edges then it is weighted graph. Else unweighted graph.
+#3. Cyclic and non-cyclic - If graphs form a loop then cyclic, else non cyclic graph.
+#Representation of a graph - The graphs will be represented in 2 ways: 1. Using multi d array, 2. using list.
+#Using multi d array - in notes(if you find it)
+#using list - in notes(if you find it)
+#traversal techniques in graph - 2 techniques in graph : dfs and bfs.
+#Breadth First Search - it is similar to implementation of queue. It works on the principle of FIFO. 
+#Depth First Search - it is similar to implementation of stack. It works on the principle of LIFO.

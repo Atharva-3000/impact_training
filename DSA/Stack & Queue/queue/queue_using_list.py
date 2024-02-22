@@ -1,6 +1,7 @@
 s=[]
 size=int(input("Enter the size of stack: "))
 top=-1
+
 while(True):
     print("1.Push 2.Pop 3.Display 4.Exit")
     opt=int(input("Enter your option: "))

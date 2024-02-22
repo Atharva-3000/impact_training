@@ -69,8 +69,15 @@ import re
 #     print("Valid")
 # else:
 #     print("Invalid")
-p = input("Enter Vehicle number: ")
-if re.fullmatch("[A-Z]{2}\d{2}[A-Z]{2}\d{4}", p):
+# p = input("Enter Vehicle number: ")
+# if re.fullmatch("[A-Z]{2}\d{2}[A-Z]{2}\d{4}", p):
+#     print("Valid")
+# else:
+#     print("Invalid")
+
+#CHECK EMAIL VALIDATION
+p = input("Enter Email: ")
+if re.fullmatch("[a-zA-Z0-9_.]*@gmail[.]com", p):
     print("Valid")
 else:
     print("Invalid")
