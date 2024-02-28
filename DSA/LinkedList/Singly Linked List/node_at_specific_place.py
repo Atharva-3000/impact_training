@@ -23,11 +23,14 @@ class slist:
             count=count+1
         new_node.next=temp.next
         temp.next=new_node
+        
 n1=Node(30)
 n2=Node(20)
 n3=Node(10)
+
 n1.next=n2
 n2.next=n3
+
 list1=slist()
 list1.head=n1
 list1.add_node_at_specific_place(50, 3)

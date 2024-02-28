@@ -127,4 +127,3 @@ bfs('B')
 print()
 dfs('B', [False] * nc)
 print()
-in

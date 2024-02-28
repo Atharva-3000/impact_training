@@ -6,5 +6,3 @@ for p in range(1,51):
             c=c+1
     if(c==2):
         print(p,end=" ")
-
-#                                                                   OR

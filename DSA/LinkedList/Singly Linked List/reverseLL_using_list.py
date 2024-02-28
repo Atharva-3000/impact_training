@@ -23,7 +23,7 @@ class slist:
             temp=temp.next
         list1.reverse()
         for i in list1:
-            print(i, end="-->")
+            print(i, end="-->")  
 n1=Node(30)
 n2=Node(20)
 n3=Node(10)
@@ -33,4 +33,4 @@ list1=slist()
 list1.head=n1
 list1.display()
 print()
-list1.reverse()                
+list1.reverse()

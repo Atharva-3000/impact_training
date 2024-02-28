@@ -10,4 +10,3 @@ else:
         print("Divisible by only 5")
     else:
         print("Not divisible by any.")
-    

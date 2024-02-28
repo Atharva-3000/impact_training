@@ -15,6 +15,7 @@ class slist:
             while(temp):
                 print(temp.data, end="-->")
                 temp=temp.next
+                
     def delete_first_node(self):
         temp=self.head
         self.head=temp.next

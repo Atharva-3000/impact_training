@@ -27,6 +27,7 @@ class DoublyLinkdeList:
         self.tail=new_node
         new_node.prev=temp
         temp.next=new_node
+        
     def add_at_pos(self, pos, data):
         new_node = Node(data)
         temp = self.head

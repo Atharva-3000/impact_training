@@ -1,0 +1,7 @@
+### Graph should be weighted, connected and undirected.
+
+1. Consider any vertex.
+
+2. Find all edges from the selected vertex to all vertices. Select least weighted edge and include it in the tree, if least weighted edge forms a circle, then discard it and consider next least weighted edge and include it in the minimum spanning tree.
+
+3. Perform step 2 until all vertices are included in the tree.
