@@ -1,0 +1,6 @@
+#trie is used to perform basic operations like insert, search and starts with methods.
+We can assume that all inputs are in lower case letters.
+Using the trie data structure we can search the required content available in the given string or not.
+Using insert method we can insert the data in the trie.
+Using the search method we can search the data int trie.
+Using statrsWith method we can search or we can check the given tree is starting with the corresponding string or not.

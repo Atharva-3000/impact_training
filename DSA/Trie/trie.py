@@ -1,0 +1,55 @@
+class TrieNode:
+  def __init__(self):
+    self.children = {}
+    self.is_end_of_word = False
+    
+
+class Trie:
+  def __init__(self):
+    self.root = TrieNode()
+
+  def insert(self, word):
+    node = self.root
+    for char in word:
+      if char not in node.children:
+        node.children[char] = TrieNode()
+      node = node.children[char]
+    print(node.children)
+    node.is_end_of_word = True
+    
+    
+  def search(self, word):
+    node = self.root
+    for char in word:
+      if char not in node.children:
+        return False
+      node = node.children[char]
+    return node.is_end_of_word
+
+
+  def starts_with(self, prefix):
+    node = self.root
+    for char in prefix:
+      if char not in node.children:
+        return False
+      node = node.children[char]
+    return True
+
+
+# Example usage:
+trie = Trie()
+words = ["apple", "app", "banana", "bat","ball"]
+for word in words:
+  trie.insert(word)
+
+print(trie.search("apple"))  #output: True
+print(trie.search("app"))  #output: True
+print(trie.search("banana"))  #output: True
+print(trie.search("bat"))  #output: True
+print(trie.search("ball"))  #output: True
+print(trie.search("orange"))  #output: False
+
+print(trie.starts_with("app"))  #output: True
+print(trie.starts_with("ban"))  #output: True
+print(trie.starts_with("bal"))  #output: True
+print(trie.starts_with("ora"))  #output: False

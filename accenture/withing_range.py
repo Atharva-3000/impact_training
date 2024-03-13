@@ -1,0 +1,5 @@
+n = int(input("Enter the number of Elements: "))
+l = list(map(int, input().split()[:n]))
+a, b = map(int, input("Enter the start and ending range: ").split())
+count = sum(1 for num in l if a < num < b)
+print(count)
